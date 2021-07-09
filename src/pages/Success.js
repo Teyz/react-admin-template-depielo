@@ -2,15 +2,15 @@
 import { Container } from '@material-ui/core';
 // components
 import Page from '../components/Page';
-import { AppListingLevels } from '../components/_dashboard/app';
+import { Success } from '../components/_dashboard/success';
 
 // ----------------------------------------------------------------------
 
-export default function DashboardApp() {
+export default function SuccessApp() {
   return (
     <Page title="Dashboard | Depielo">
       <Container maxWidth="xl">
-        <AppListingLevels />
+        <Success />
       </Container>
     </Page>
   );

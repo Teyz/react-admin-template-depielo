@@ -1,0 +1,28 @@
+.view-root{
+  position: relative;
+}
+
+.view-main, .view-sub-content{
+  display: flex;
+}
+
+.view-sub-objectif, .view-sub-content{
+  padding: 12px 8px;
+}
+
+.view-sub-objectif{
+  background-color: red;
+}
+
+.view-sub-content{
+  background-color: purple;
+}
+
+.view-progress{
+  position: absolute;
+  height: 5px;
+  background-color: yellow;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.5s ease-in-out;
+}
